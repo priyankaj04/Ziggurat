@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+  background: #2f2f2f;
+  font-family: 'Amatic SC', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.codepen-button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  cursor: pointer;
   color: white;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 3px;
+  isolation: isolate;
 }
 
-.App-link {
-  color: #61dafb;
+.codepen-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  /*background: linear-gradient(115deg, #fad648, #fa9b48, #ff2200, #ff17b9, #b947ff, #334af9, #5090ff, #12bcfe, #44ce7b, #d6fa48, #fad648);*/
+  background-size: 25% 100%;
+
+  filter: blur(10px);
+  box-shadow: 5px 5px 5px #ffffff;
+  opacity: 0.05;
+  background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+
+@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
   to {
-    transform: rotate(360deg);
+    transform: translateX(-25%);
   }
+}
+
+.codepen-button div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.underline-color:hover{
+  border-bottom: 2px solid #06dd7e;
+  color:#06dd7e;
+}
+
+.contactus:hover{
+  background-color: #06dd7e;
+  color:#2f2f2f;
+}
+
+.explore-button{
+  border: none;
+  background-color: #06dd7e;
+  height: 60px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 250px;
 }
