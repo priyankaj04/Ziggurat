@@ -15,4 +15,4 @@ function HeroComponent() {
     )
 }
 
-export default HeroComponent
+export default HeroComponent;
