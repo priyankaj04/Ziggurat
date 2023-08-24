@@ -1,4 +1,4 @@
-# Ziggurat Landing Page in `React` and `Tailwind CSS`
+# Ziggurat XYZ Landing Page in `React` and `Tailwind CSS`
 
 Inspired By: [Ziggurat XYZ](https://www.zigguratxyz.com/)
 
