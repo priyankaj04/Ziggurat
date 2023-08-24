@@ -1,6 +1,6 @@
 # Ziggurat Landing Page in `React` and `Tailwind CSS`
 
-Original webiste: [Ziggurat](https://ziggurat.com)
+Inspired By: [Ziggurat XYZ](https://www.zigguratxyz.com/)
 
 This webiste is
 * Responsive
