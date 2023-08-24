@@ -6,6 +6,7 @@ This webiste is
 * Responsive
 * Smooth Scrolling
 * Single Page
+* Lazy Loading
 
 ## Built using: 
 - React
