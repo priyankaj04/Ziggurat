@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   background: #2f2f2f;
@@ -63,9 +66,21 @@ body {
 .explore-button{
   border: none;
   background-color: #06dd7e;
-  height: 60px;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   padding: 10px;
-  margin-left: 250px;
+}
+
+.explore-button:hover {
+  background-color: #03ca70;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #06dd7e;
+  transform-origin: 0%;
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 import joinus from '../imgs/joinus.avif';
+import { motion } from "framer-motion"
 
 function JoinUs() {
     return (
-        <div style={{ marginTop: 70, width: '100%', height: '75vh' }}>
+        <div style={{ width: '100%', height: '75vh' }}>
             <div style={{display:'flex'}}>
                 <img src={joinus} style={{ flex: 1, objectFit: 'contain', width: 400, height: 500 }} />
                 <div style={{ flex: 1 }}>

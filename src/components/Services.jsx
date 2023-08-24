@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import { motion } from "framer-motion"
 import talent from '../imgs/talent.avif';
 import product from '../imgs/product.avif';
 import media from '../imgs/coding.avif';
@@ -9,9 +10,9 @@ import staffing from '../imgs/staffing.avif';
 
 function Services() {
   return (
-    <div style={{ marginTop: 70, width: '100%'}}>
+    <div style={{ width: '100%'}}>
       <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1 }}>
+        <div style={{ marginTop: 100, flex: 1 }}>
           <h1 style={{ color: '#fbbf24', fontSize: 56, textAlign: 'center' }}>Our Services</h1>
           <p style={{ color: 'white', fontSize: 36, textAlign: 'center' }}>We offer a diverse toolbox of expertise,
             and are always looking to help a creator do something new and fail fast in all the right ways.</p>
